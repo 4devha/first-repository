@@ -1,6 +1,8 @@
 
 
 
+/*General page styles*/
+
 
 
 
@@ -14,7 +16,7 @@ html {
   background-color: #ccc;
 }
 
-
+/*styles specific to the setup of the card container*/
 
 .card {
   width: 35em;
@@ -29,7 +31,7 @@ html {
   margin: 0;
 }
 
-
+/*styles specific to the header and footer*/
 
 .card header, .card footer {
   height: 3em;
@@ -56,7 +58,7 @@ html {
   line-height: 2;
 }
 
-
+/*styles specific to the main business card contents*/
 .card article {
   height: 12em;
   background-color: rgba(0,0,0,0.25);
